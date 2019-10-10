@@ -1,0 +1,45 @@
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: calc(100vw - 600px);
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin: 100px auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container span {
+  width: 100px;
+  display: block;
+  height: 100%;
+  background-color: green;
+  cursor: pointer;
+}
+
+.container .menu {
+  width: calc(100% - 200px);
+  overflow: hidden;
+  height: 100%;
+}
+
+.container ul {
+  height: 60px;
+  overflow: hidden;
+  width: 5000px;
+}
+
+.container ul li {
+  background-color: red;
+  width: 100px;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  border-right: 1px solid #fff;
+}
